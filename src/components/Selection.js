@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/Child.css";
 
-export default function Selection({ applyColor }) {
+export default function Selection({ applyColor, background }) {
   const [selectedBackground, setSelectedBackground] = React.useState({
-    background: ""
+    background
   });
   return (
     <div
